@@ -1,0 +1,38 @@
+•	Unit test :
+-	    Unit test được viết ra để kiểm thử kết quả của các method, không liên quan đến kết  quả toàn bộ chương trình.
+-	    Unit test có thể làm tăng đáng kể chất lượng dự án, điều kiện là unit test được viết một cách hợp lý và có vai trò nhất quán, rõ ràng.
+
+•	Acceptance Test
+-	     Kiểm thử liên quan đến nhu cầu của người sử dụng, yêu cầu và quy trình kinh doanh được tiến hành 
+để xác định có hay không một hệ thống đáp ứng các tiêu chí chấp nhận và kiểm tra hệ thống đáp ứng yêu cầu của khách hàng.
+-	    Kiểm thử các chức năng để kiểm tra hành vi của hệ thống bằng cách sử dụng dữ liệu thực tế. 
+-	    Được thực hiện bởi người dùng cuối để kiểm tra hệ thống được xây dựng để phù hợp với yêu cầu kinh doanh của tổ chức.
+-	    Trong kiểm thử này, tất cả các giao diện đã được kết hợp và hệ thống đã hoàn thành và đã được kiểm tra.
+-	    Trong kiểm thử chấp nhận có hai mức độ kiểm thử là Alpha testing và Beta testing.
+
+•	Stability Test
+-	    Kiểm tra khả năng duy trì hoạt động của sản phẩm xuyên suốt và vượt quá thời hạn sử dụng của nó,
+ mà không hỏng hoặc xảy ra lỗi, với mục đích đòi hỏi khả năng chịu tải của phần mềm tới mức tối đa.
+-	    Được thực hiện để kiểm tra hiệu quả của 1 sản phẩm được phát triển vượt qua mức hoạt động bình thường, hay tới 1 điểm dừng.
+-	    Có ý nghĩa quan trọng hơn là trong việc xử lý lỗi, độ tin cậy của phần mềm, khả năng chịu tải
+ và khả năng mở rộng của 1 sản phẩm dưới tải lớn chứ không phải là kiểm tra cách hoạt động của hệ thống trong các hoàn cảnh bình thường.
+
+•	Automation Test
+-	   Là quá trình kiểm tra hệ thống với dữ liệu đầu vào và đầu ra đã được xác định 1 cách tự động.
+    Ưu điểm:
+-    Độ tin cậy cao: công cụ kiểm thử tự động có sự ổn định cao hơn so với con người, đặc biệt trong trường hợp nhiều test cases,
+ nên độ tin cậy cao hơn so với kiểm thử thủ công.
+-    Khả năng lặp: công cụ kiểm thử tự động ra đời là để giúp cho các tester không phải lặp đi lặp lại các thao tác (ví dụ: nhập dữ liệu, click, check kết quả…) 
+một cách nhàm chán với độ tin cậy và ổn định cao.
+-    Khả năng tái sử dụng: với một bộ kiểm thử tự động, người ta có thể sử dụng cho nhiều phiên bản ứng dụng khác nhau, đây được gọi là tính tái sử dụng.
+-     Tốc độ cao: do thực thi bởi máy nên tốc độ của kiểm thử tự động nhanh hơn nhiều so với tốc độ của con người.
+ Nếu cần 5 phú để thực thi một test case một cách thủ công thì có thể người ta chỉ cần khoảng 30s để thực thi một cách tự động.
+-    Chi phí thấp: nếu áp dụng kiểm thử tự động đúng cách, người ta có thể tiết kiệm được nhiều chi phí,
+ thời gian và nhân lực, do kiểm thử tự động nhanh hơn nhiều so với kiểm thử thủ công, đồng thời nhân lực cần để thực thi và bảo trì scripts không nhiều.
+Nhược điểm:
+-    Khó mở rộng, khó bảo trì: trong cùng một dự án, để mở rộng phạm vi cho kiểm thử tự động khó hơn nhiều so với kiểm thử thủ công 
+vì cập nhật hay chỉnh sửa yêu cầu nhiều công việc như debug, thay đổi dữ liệu đầu vào và cập nhật code mới.
+-    Khả năng bao phủ thấp: do khó mở rộng và đòi hỏi nhiều kỹ năng lập trình nên độ bao phủ của kiểm thử tự động thấp xét trên góc nhìn toàn dự án.
+-    Vấn đề công cụ và nhân lực: hiện nay cũng có nhiều công cụ hỗ trợ kiểm thử tự động khá tốt nhưng chúng vẫn còn nhiều hạn chế.
+ Ngoài ra nhân lực đạt yêu cầu (có thể sử dụng thành thạo các công cụ này) cũng không nhiều.
+
